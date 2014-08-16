@@ -1,0 +1,6 @@
+icons/
+icons-all/
+osmosis-latest/
+output/
+*.osm.pbf
+*~
