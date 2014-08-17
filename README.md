@@ -6,11 +6,11 @@ BASH (Linux) scripts to download Geofabrik OpenStreetMap data, extract points of
 Requirements
 ------------
 
-osmosis - used to filter data - place osmosis-latest directory in same directory as the script files or change path in filter scripts
-osmconvert - used to convert PBF to nodes-only and filtered OSMs to CSV
-gpsbabel - used to convert CSV to OV2
-awk - included with Linux systems
-wget - included with Linux systems
+* osmosis - used to filter data - place osmosis-latest directory in same directory as the script files or change path in filter scripts
+* osmconvert - used to convert PBF to nodes-only and filtered OSMs to CSV
+* gpsbabel - used to convert CSV to OV2
+* awk - included with Linux systems
+* wget - included with Linux systems
 
 RAM
 ---
@@ -25,12 +25,12 @@ Make sure your system meets the requirements above. If you would like a differen
 Files
 -----
 
-poi.sh - this is the master script
-filter1key.sh – uses osmosis to filter nodes based on a key-value pair
-filter2key.sh – uses osmosis to filter nodes based on two key-value pairs
-atm.sh - uses osmosis to filter nodes for ATMs
-fuel.awk - awk script to format names of petrol stations nicely
-output directory will be created by the poi.sh script
+* poi.sh - this is the master script
+* filter1key.sh – uses osmosis to filter nodes based on a key-value pair
+* filter2key.sh – uses osmosis to filter nodes based on two key-value pairs
+* atm.sh - uses osmosis to filter nodes for ATMs
+* fuel.awk - awk script to format names of petrol stations nicely
+* output directory will be created by the poi.sh script
 
 Icons
 -----
